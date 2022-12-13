@@ -13,7 +13,7 @@ window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 
-gtag('config', 'G-1PBQ77YD00', page_title: 'Test Title');
+gtag('config', 'G-1PBQ77YD00', page_title: 'Main');
 
 // REDIRECT
 // window.location.replace("https://onlyfans.com/bipolarbuthawt");
