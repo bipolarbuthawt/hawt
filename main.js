@@ -17,3 +17,4 @@ gtag('config', 'G-1PBQ77YD00', page_title: 'Main', page_location: 'https://bipol
 
 // REDIRECT
 window.location.replace("https://onlyfans.com/bipolarbuthawt");
+
