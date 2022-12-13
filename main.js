@@ -16,4 +16,4 @@ gtag('js', new Date());
 gtag('config', 'G-1PBQ77YD00', page_title: 'Main');
 
 // REDIRECT
-// window.location.replace("https://onlyfans.com/bipolarbuthawt");
+window.location.replace("https://onlyfans.com/bipolarbuthawt");
