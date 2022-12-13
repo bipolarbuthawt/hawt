@@ -19,4 +19,4 @@ gtag('config', 'G-1PBQ77YD00', {
 });
 
 // REDIRECT
-window.location.replace("https://onlyfans.com/bipolarbuthawt");
+// window.location.replace("https://onlyfans.com/bipolarbuthawt");
