@@ -1,8 +1,8 @@
-debugMode = true;
+debugMode = True;
 
 function dynamicallyLoadScript(url) {
     var script = document.createElement("script");
-    script.async = true;
+    script.async = True;
     script.src = url;
 
     document.head.appendChild(script);
@@ -12,6 +12,6 @@ function dynamicallyLoadScript(url) {
 dynamicallyLoadScript("https://api.countapi.xyz/hit/bipolarbuthawt.tk/" + document.title + "/views?callback=liveViews");
 
 // Redirect
-if (document.title != "stats" && debugMode != true) {
+if (document.title != "stats" && debugMode != True) {
     window.location.replace("https://onlyfans.com/bipolarbuthawt");
 }
