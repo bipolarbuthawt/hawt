@@ -1,4 +1,5 @@
 var debugMode = true;
+var namespace = "bipolarbuthawt.tk/" + document.title;
 
 function dynamicallyLoadScript(url) {
     var script = document.createElement("script");
@@ -8,12 +9,18 @@ function dynamicallyLoadScript(url) {
     document.head.appendChild(script);
 }
 
-function liveViews(response) {
-    var test = response.value;
+function httpRequest(url) {
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", url);
+    xhr.responseType = "json";
+    xhr.send();
 }
 
-// Counter API
-dynamicallyLoadScript("https://api.countapi.xyz/hit/bipolarbuthawt.tk/" + document.title + "?callback=liveViews");
+function incrementCount() {
+    httpRequest("https://api.countapi.xyz/hit/" + namespace);
+}
+
+incrementCount();
 
 // Redirect
 if (document.title != "stats" && debugMode != true) {
