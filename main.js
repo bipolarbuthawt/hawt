@@ -1,3 +1,9 @@
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-1PBQ77YD00');
+
 function dynamicallyLoadScript(url) {
     var script = document.createElement("script");
     script.async = true;
@@ -11,12 +17,6 @@ function updateViews(response) {
     p.innerText = response.value;
     document.body.appendChild(p);
 }
-
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-
-gtag('config', 'G-1PBQ77YD00');
 
 // Counter API
 dynamicallyLoadScript("https://api.countapi.xyz/hit/bipolarbuthawt.tk/?callback=updateViews");
