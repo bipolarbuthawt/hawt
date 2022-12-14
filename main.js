@@ -13,9 +13,7 @@ function liveViews(response) {
 }
 
 // Counter API
-var title = "";
-if (document.title != "Main") title = document.title + "/";
-dynamicallyLoadScript("https://api.countapi.xyz/hit/bipolarbuthawt.tk/" + title + "views?callback=liveViews");
+dynamicallyLoadScript("https://api.countapi.xyz/hit/bipolarbuthawt.tk/" + document.title + "?callback=liveViews");
 
 // Redirect
 if (document.title != "stats" && debugMode != true) {
