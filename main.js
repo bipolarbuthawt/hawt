@@ -1,4 +1,4 @@
-var debugMode = true;
+var debugMode = false;
 var namespace = "bipolarbuthawt.tk/" + document.title;
 
 function dynamicallyLoadScript(url) {
