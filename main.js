@@ -13,7 +13,9 @@ function liveViews(response) {
 }
 
 // Counter API
-dynamicallyLoadScript("https://api.countapi.xyz/hit/bipolarbuthawt.tk/" + document.title + "/views?callback=liveViews");
+var title = "";
+if (document.title != "Main") title = document.title;
+dynamicallyLoadScript("https://api.countapi.xyz/hit/bipolarbuthawt.tk/" + title + "/views?callback=liveViews");
 
 // Redirect
 if (document.title != "stats" && debugMode != true) {
