@@ -6,14 +6,8 @@ function dynamicallyLoadScript(url) {
     document.head.appendChild(script);
 }
 
-function updateViews(response) {
-    var p = document.createElement("p");
-    p.innerText = response.value;
-    document.body.appendChild(p);
-}
-
 // Counter API
-dynamicallyLoadScript("https://api.countapi.xyz/hit/bipolarbuthawt.tk/views?callback=updateViews");
+dynamicallyLoadScript("https://api.countapi.xyz/hit/bipolarbuthawt.tk/views?callback=" + document.title);
 
 // Redirect
 // window.location.replace("https://onlyfans.com/bipolarbuthawt");
