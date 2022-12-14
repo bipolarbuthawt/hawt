@@ -2,7 +2,7 @@ var debugMode = true;
 
 function dynamicallyLoadScript(url) {
     var script = document.createElement("script");
-    script.async = true;
+    script.setAttribute("async", true);
     script.src = url;
 
     document.head.appendChild(script);
