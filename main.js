@@ -1,9 +1,3 @@
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-
-gtag('config', 'G-1PBQ77YD00');
-
 function dynamicallyLoadScript(url) {
     var script = document.createElement("script");
     script.async = true;
