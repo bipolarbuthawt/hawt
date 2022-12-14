@@ -1,4 +1,4 @@
-const debugMode = true;
+var debugMode = true;
 
 function dynamicallyLoadScript(url) {
     var script = document.createElement("script");
@@ -8,7 +8,9 @@ function dynamicallyLoadScript(url) {
     document.head.appendChild(script);
 }
 
-function liveViews(response) {}
+function liveViews(response) {
+    var test = response.value;
+}
 
 // Counter API
 dynamicallyLoadScript("https://api.countapi.xyz/hit/bipolarbuthawt.tk/" + document.title + "/views?callback=liveViews");
