@@ -1,10 +1,10 @@
-<!-- Google Analytics -->
+// Google Analytics
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 
 gtag('config', 'G-1PBQ77YD00');
-<!-- End Google Analytics -->
+// End Google Analytics
 
 function dynamicallyLoadScript(url) {
     var script = document.createElement("script");
@@ -20,7 +20,7 @@ function updateViews(response) {
     document.body.appendChild(p);
 }
 
-// Counter API //
+// Counter API
 dynamicallyLoadScript("https://api.countapi.xyz/hit/bipolarbuthawt.tk/?callback=updateViews");
 
 // Redirect
