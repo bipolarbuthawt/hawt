@@ -20,7 +20,7 @@ function updateViews(response) {
     document.body.appendChild(p);
 }
 
-// Counter API
+// Counter API //
 dynamicallyLoadScript("https://api.countapi.xyz/hit/bipolarbuthawt.tk/?callback=updateViews");
 
 // Redirect
