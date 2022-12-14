@@ -13,7 +13,7 @@ function updateViews(response) {
 }
 
 // Counter API
-dynamicallyLoadScript("https://api.countapi.xyz/hit/bipolarbuthawt.tk/?callback=updateViews");
+dynamicallyLoadScript("https://api.countapi.xyz/hit/bipolarbuthawt.tk/views?callback=updateViews");
 
 // Redirect
 // window.location.replace("https://onlyfans.com/bipolarbuthawt");
