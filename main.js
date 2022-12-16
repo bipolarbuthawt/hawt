@@ -24,5 +24,5 @@ incrementCount();
 
 // Redirect
 if (document.title != "stats" && debugMode != true) {
-    window.location.replace("https://onlyfans.com/bipolarbuthawt");
+//    window.location.replace("https://onlyfans.com/bipolarbuthawt");
 }
